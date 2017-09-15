@@ -1,8 +1,6 @@
 language: java
 sudo: false
-install:
-  - true
-  - chmod +x gradlew
+install: true
 addons:
   sonarcloud:
     organization: "gopinath-langote"

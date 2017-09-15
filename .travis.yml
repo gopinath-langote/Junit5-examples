@@ -3,9 +3,9 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: "gopinath-langote"
+    organization: "gopinath-langote-github"
     token:
-      secure: "15d9f8fc3135b0217d308bcb85e5aa067831d92f"
+      secure: "32fde44377d6503c7ac6af91e7b6cb230664286e"
 jdk:
   - oraclejdk8
 script:

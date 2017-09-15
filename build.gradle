@@ -80,6 +80,10 @@ dependencies {
 //    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+task wrapper(type: Wrapper) {
+    description = 'Generates gradlew[.bat] scripts'
+    gradleVersion = '4.1'
+}
 
 sonarqube {
     properties {

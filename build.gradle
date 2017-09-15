@@ -26,6 +26,7 @@ ext.log4jVersion         = '2.9.0'
 apply plugin: 'java'
 apply plugin: 'org.junit.platform.gradle.plugin'
 apply plugin: "org.sonarqube"
+apply plugin: 'jacoco'
 
 jar {
     baseName = 'junit5-gradle-consumer'
@@ -82,4 +83,11 @@ dependencies {
 task wrapper(type: Wrapper) {
     description = 'Generates gradlew[.bat] scripts'
     gradleVersion = '4.1'
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "Java Gradle-based project analyzed on SonarCloud using Travis"
+        property "sonar.projectKey", "com.sonarqube.examples.java-gradle-travis-project"
+    }
 }

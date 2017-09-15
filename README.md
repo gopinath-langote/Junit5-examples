@@ -1,3 +1,4 @@
 # Junit5-examples
 
-## Junit5 sample examples
+[![Build Status](https://travis-ci.org/gopinath-langote/Junit5-examples.svg)](https://travis-ci.org/gopinath-langote/Junit5-examples)
+

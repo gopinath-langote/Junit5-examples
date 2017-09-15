@@ -3,9 +3,9 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: "your_organization_key"
+    organization: "gopinath-langote"
     token:
-      secure: "your_token_encrypted_with_travis_encrypt_tool"
+      secure: "15d9f8fc3135b0217d308bcb85e5aa067831d92f"
 jdk:
   - oraclejdk8
 script:
